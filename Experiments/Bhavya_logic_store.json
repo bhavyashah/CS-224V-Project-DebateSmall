@@ -1,0 +1,202 @@
+[
+  {
+    "domain": "Economics",
+    "mechanisms": [
+      {
+        "name": "The Underground Market (Substitution)",
+        "tags": ["bans", "prohibition", "vices", "drugs"],
+        "logic_template": "Banning {X} does not eliminate the demand. Instead, it drives the market underground where {X} is produced by unregulated criminal elements without safety standards. This leads to higher toxicity/danger for users and empowers gangs who use violence to settle disputes, whereas a legal market would allow for state regulation and harm reduction."
+      },
+      {
+        "name": "Moral Hazard",
+        "tags": ["insurance", "bailouts", "safety_nets", "risk"],
+        "logic_template": "Insulating {actor} from the consequences of their risks encourages them to behave more recklessly. If they know the downside is cushioned by {policy/bailout}, they will take gambles they otherwise wouldn't, leading to a net increase in the harmful behavior we are trying to prevent."
+      },
+      {
+        "name": "The Opportunity Cost",
+        "tags": ["budget", "spending", "trade-offs", "capacity"],
+        "logic_template": "Resources are finite. Every dollar and hour of political capital spent on {policy_A} is a resource taken away from {policy_B}. We must judge this policy not just on its own merits, but on whether it is better than the alternative intervention of {alternative} which is being sacrificed to fund it."
+      }
+    ]
+  },
+  {
+    "domain": "Politics & Governance",
+    "mechanisms": [
+      {
+        "name": "Reactive Backlash",
+        "tags": ["polarization", "reform", "radicalization"],
+        "logic_template": "Aggressively pushing for {policy} creates a perceived threat among {opposing_group}. Instead of accepting the change, they mobilize in defense of their status, leading to a counter-movement that is more radical than the status quo. This backlash often leaves the vulnerable group worse off than before the intervention."
+      },
+      {
+        "name": "Normative Signaling",
+        "tags": ["symbolism", "social norms", "law as culture"],
+        "logic_template": "Laws do more than regulate behavior; they signal what society values. Even if enforcement of {policy} is difficult, passing it sends a message that {behavior} is unacceptable. This shifts the 'Overton Window' of social norms, eventually making the behavior socially taboo even without heavy policing."
+      },
+      {
+        "name": "The Legitimization Trap",
+        "tags": ["platforms", "extremism", "funding"],
+        "logic_template": "By engaging with, funding, or debating {group/idea}, the state signals that this view is within the sphere of acceptable discourse. This legitimizes fringe ideologies, allowing them to recruit moderate individuals who would have otherwise shunned them if they had remained marginalized."
+      }
+    ]
+  },
+  {
+    "domain": "Law & Justice",
+    "mechanisms": [
+      {
+        "name": "The Chilling Effect",
+        "tags": ["free speech", "journalism", "vague laws"],
+        "logic_template": "If we allow the state to punish {vague_behavior}, innocent people will over-correct out of fear. Because they cannot perfectly predict where the legal line is, they will avoid any activity that even resembles the banned action. This silences legitimate speech and innovation, creating a society that is risk-averse and compliant."
+      },
+      {
+        "name": "The Slippery Slope (Precedent)",
+        "tags": ["surveillance", "rights", "emergency powers"],
+        "logic_template": "Granting the state the power to {action} in this specific case creates a legal precedent. Once we accept this mechanism as a legitimate tool of government, it becomes the template used to justify future overreach against less dangerous groups. We must judge the power not by how *this* government uses it, but how the *worst* future government might."
+      },
+      {
+        "name": "The Recidivism Trap",
+        "tags": ["prisons", "punishment", "rehabilitation"],
+        "logic_template": "Harsh punishments for {crime} stigmatize offenders, making it impossible for them to get jobs after release. Without legal income, they are forced to return to crime to survive. Therefore, a punitive approach actually increases the long-term crime rate compared to a rehabilitative approach."
+      }
+    ]
+  },
+  {
+    "domain": "Society & Culture",
+    "mechanisms": [
+      {
+        "name": "Motivation Crowding Out",
+        "tags": ["charity", "volunteering", "incentives"],
+        "logic_template": "When the state uses financial incentives or mandates for {activity}, it commodifies what used to be a moral duty. Citizens no longer feel an intrinsic responsibility to {action} for their community, but view it as a transaction. If the funding stops, the behavior stops, destroying the organic civil society."
+      },
+      {
+        "name": "The Tokenism Trap",
+        "tags": ["quotas", "affirmative action", "representation"],
+        "logic_template": "Promoting a few individuals from {minority_group} to high positions without structural change creates a false sense of progress. These individuals are viewed as 'diversity hires' rather than earned successes. Meanwhile, the institution points to them as proof that discrimination is over, reducing the pressure to make broader systemic changes."
+      },
+      {
+        "name": "The Echo Chamber",
+        "tags": ["social media", "polarization", "democracy"],
+        "logic_template": "Algorithms maximize engagement by showing users what they already agree with. This insulates {group} from opposing viewpoints, making them view the other side not as people with different opinions, but as enemies of reality. This polarization makes democratic compromise impossible."
+      }
+    ]
+  },
+  {
+    "domain": "International Relations",
+    "mechanisms": [
+      {
+        "name": "The Rally 'Round the Flag Effect",
+        "tags": ["war", "sanctions", "dictators"],
+        "logic_template": "When an external power attacks or sanctions {country}, the population does not blame their own dictator. Instead, they feel under attack by a foreign enemy. This nationalism consolidates the dictator's power, as they can paint themselves as the sole defender of the nation, silencing internal dissent."
+      },
+      {
+        "name": "Soft Power Vacuum",
+        "tags": ["foreign aid", "diplomacy", "geopolitics"],
+        "logic_template": "If {Western_Nation} withdraws support from {Region}, it does not leave {Region} independent. It creates a vacuum that will be filled by {Rival_Power}, who will offer unconditional aid in exchange for resource rights. This forces {Region} into a sphere of influence that is less concerned with human rights."
+      },
+      {
+        "name": "Mutually Assured Destruction",
+        "tags": ["nuclear weapons", "military", "alliances"],
+        "logic_template": "The only thing stopping {actor_A} from attacking {actor_B} is the fear of total retaliation. If we remove {weapon/alliance}, we lower the cost of war. Paradoxically, having the capacity for extreme violence ensures peace, because both sides calculate that the cost of conflict outweighs any potential gain."
+      }
+    ]
+  },
+  {
+    "domain": "Urban & Environment",
+    "mechanisms": [
+      {
+        "name": "Displacement Effect",
+        "tags": ["policing", "gentrification", "migration"],
+        "logic_template": "Crackdowns on {activity} in specific areas do not solve the root cause. They simply displace the activity to neighboring areas or invisible spaces where it is harder to monitor. This 'whack-a-mole' approach creates a false sense of security while often moving the harm to more vulnerable communities."
+      },
+      {
+        "name": "Tragedy of the Commons",
+        "tags": ["climate change", "resources", "pollution"],
+        "logic_template": "Individual actors profit from exploiting {resource}, while the cost of depletion is shared by everyone. Therefore, every rational actor will race to exploit as much as possible before others do, leading to the inevitable destruction of the resource unless strict top-down enforcement exists."
+      },
+      {
+        "name": "Greenwashing",
+        "tags": ["corporate responsibility", "marketing", "environment"],
+        "logic_template": "Allowing companies to voluntarily report their eco-friendly actions allows them to 'greenwash'—spending more money on marketing their minor good deeds than on actually changing their supply chain. This pacifies the consumer, making them feel like the problem is being solved, which delays necessary hard regulation."
+      }
+    ]
+  },
+  {
+    "domain": "Technology & AI",
+    "mechanisms": [
+      {
+        "name": "The Automation Displacement",
+        "tags": ["AI", "jobs", "economy"],
+        "logic_template": "While {technology} increases efficiency, it disproportionately replaces low-skill labor. Unlike previous industrial revolutions, the pace of AI advancement is faster than the speed at which workers can retrain. This creates a permanent 'useless class' of unemployable citizens."
+      },
+      {
+        "name": "Algorithmic Bias Loop",
+        "tags": ["AI", "justice", "hiring"],
+        "logic_template": "AI models are trained on historical data. Since history contains racism/sexism, the AI learns these patterns as 'facts.' When we use AI to make decisions about {sector}, it not only repeats past discrimination but amplifies it under the guise of 'objective math,' making it harder to challenge."
+      },
+      {
+        "name": "The Panopticon Effect",
+        "tags": ["privacy", "surveillance", "data"],
+        "logic_template": "When citizens know they are being watched by {tech/system}, they alter their behavior to be perfectly conformist. This kills creativity, dissent, and political activism, creating a population that is docile and unable to challenge authority."
+      }
+    ]
+  },
+  {
+    "domain": "Education & Labor",
+    "mechanisms": [
+      {
+        "name": "Signaling Theory (Credentialism)",
+        "tags": ["university", "degrees", "job market"],
+        "logic_template": "The value of a degree is not the skills learned, but the 'signal' it sends to employers that the student is compliant and hard-working. If we make {education} easier or universal, the signal becomes noisy. Employers will then demand even higher credentials to filter candidates, triggering a credential arms race."
+      },
+      {
+        "name": "The Hidden Curriculum",
+        "tags": ["schools", "indoctrination", "values"],
+        "logic_template": "Schools do not just teach math and science; they teach a 'hidden curriculum' of obedience, nationalism, and hierarchy. By enforcing {policy}, we are implicitly teaching children that {value} is less important than authority, shaping their worldview for life."
+      },
+      {
+        "name": "Tracking / Streaming",
+        "tags": ["gifted programs", "inequality", "classrooms"],
+        "logic_template": "Separating students by ability (tracking) becomes a self-fulfilling prophecy. Students in the lower track internalize that they are 'dumb' and disengage. This calcifies early developmental differences (often based on home income) into permanent life outcomes."
+      }
+    ]
+  },
+  {
+    "domain": "Bioethics",
+    "mechanisms": [
+      {
+        "name": "Bodily Autonomy",
+        "tags": ["medical", "rights", "organ donation"],
+        "logic_template": "The right to control one's own body is the most fundamental right. Even if violating it (e.g., forced {procedure}) would save lives, we cannot do it. If the state owns our bodies, it owns us entirely, opening the door to forced labor or experimentation."
+      },
+      {
+        "name": "Playing God (Unforeseen Consequences)",
+        "tags": ["GMOs", "cloning", "nature"],
+        "logic_template": "Biological systems are infinitely complex. When we manipulate {gene/species} for a specific benefit, we cannot predict the cascading effects on the ecosystem. We risk introducing a defect or pathogen that we cannot recalibrate, potentially causing irreversible damage."
+      },
+      {
+        "name": "The Commodification of Life",
+        "tags": ["surrogacy", "selling organs", "ethics"],
+        "logic_template": "Putting a price tag on {body_part/service} inherently coercive to the poor. A wealthy person 'chooses' to buy, but a poor person is 'forced' to sell their health or body to survive. This creates a biological caste system where the rich harvest the poor for parts or labor."
+      }
+    ]
+  },
+  {
+    "domain": "Media (General)",
+    "mechanisms": [
+      {
+        "name": "Sensationalism (If it bleeds, it leads)",
+        "tags": ["journalism", "news", "profit"],
+        "logic_template": "For-profit media needs views to sell ads. Fear and outrage generate more views than nuanced analysis. Therefore, the media will always exaggerate {threat}, causing the public to irrationally fear rare events while ignoring systemic issues."
+      },
+      {
+        "name": "Art as Empathy",
+        "tags": ["censorship", "literature", "culture"],
+        "logic_template": "The unique power of art is to force the consumer to live in the shoes of someone else. By consuming stories about {marginalized_group}, the majority population builds empathy that statistics cannot provide. Censoring this art removes a critical mechanism for emotional bridge-building."
+      },
+      {
+        "name": "Manufacturing Consent",
+        "tags": ["propaganda", "corporate media", "narrative"],
+        "logic_template": "Media outlets are owned by massive corporations with specific financial interests. They will never promote {policy} if it threatens their bottom line. Instead, they filter information to create the illusion of vigorous debate while actually excluding any ideas that challenge the capitalist status quo."
+      }
+    ]
+  }
+]
