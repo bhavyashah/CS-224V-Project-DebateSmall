@@ -7,7 +7,8 @@ import pandas as pd
 import argparse
 import json
 
-load_dotenv()
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(SCRIPT_DIR, '.env'))
 
 ARG_GEN_PROMPT = """You are a divergent debate engine designed to build a constructive case.
 
@@ -121,7 +122,7 @@ Instructions:
 """
 
 try:
-    with open('logic_store.json', 'r') as f:
+    with open(os.path.join(SCRIPT_DIR, 'logic_store.json'), 'r') as f:
         LOGIC_STORE = json.load(f)
 except FileNotFoundError:
     print("Warning: logic_store.json not found. Schema-guided architecture will fail.")
